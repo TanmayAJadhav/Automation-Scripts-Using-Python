@@ -30,7 +30,7 @@ def main():
         else:
             print("Failure")
     else:
-        print("File not exits")            
+        print("File not exits")           
     
 if __name__ == "__main__":
     main()
