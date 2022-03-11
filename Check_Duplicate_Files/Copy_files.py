@@ -1,5 +1,5 @@
 # Q) Design automation script which accept two directory names. Copy all files from first directory into second directory. Second 
-# directory should be created at run time. 
+# directory should be created at run time.and create log file which files get copied
 # Usage : Copy_files.py “Demo” “Temp” 
 # Demo is name of directory which is existing and contains files in it. We have to create new 
 # Directory as Temp and copy all files from Demo to Temp.
