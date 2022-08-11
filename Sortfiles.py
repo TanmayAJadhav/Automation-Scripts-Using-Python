@@ -1,4 +1,4 @@
-# program to sort files according to extension in newly created directories(copy)
+# program to sort files according to extension in newly created directories(move)
 
 import os
 import pathlib
@@ -23,7 +23,7 @@ def makepartition(srcPath):
                     os.mkdir(checkpath) 
 
                 dstpath = os.path.join(srcPath,file_extension)
-                shutil.copy(filen,dstpath,follow_symlinks=True) 
+                shutil.move(filen,dstpath) 
                 # print(filen," ",dstpath)
     else:
         print("Invalid path")
